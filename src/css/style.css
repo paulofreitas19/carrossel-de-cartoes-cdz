@@ -127,7 +127,7 @@ body {
 }
 
 .fundo-12 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-mascara.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) ,rgba(000, 0, 0, 0.5)), url(../img/backgrounds/fundo-mascara.jpg) no-repeat bottom;
 }
 
 .fundo-13 {
