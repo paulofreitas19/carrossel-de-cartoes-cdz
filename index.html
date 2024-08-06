@@ -14,24 +14,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="./src/img/icon-helmet.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/img/icons/helmet.png" type="image/x-icon">
 
 </head>
 
 <body>
 
-    <audio autoplay loop>
+    <section class="som-position">
+        <button onclick="document.getElementById('player').play()" class="som-btn tocar">
+            <img src="./src/img/icons/tocar.png" alt="tocar">
+        </button>
+
+        <button onclick="document.getElementById('player').pause()" class="som-btn pausar">
+            <img src="./src/img/icons/pausar.png" alt="pausar">
+        </button>
+    </section>
+
+    
+
+    <audio id="player" autoplay loop>
         <source src="./src/audio/trilha-seya.mp3" type="audio/mp3" />
     </audio>
 
+
     <header class="cabecalho">
-        <img src="./src/img/icon-helmet.png" alt="helmet" class="helmet">
+        <img src="./src/img/icons/helmet.png" alt="helmet" class="helmet">
         <h1 class="titulo">Cavaleiros do Zodíaco</h1>
     </header>
 
     <main class="carrossel-cdz">
         <button class="btn-seta btn-voltar" id="btn-voltar">
-            <img src="./src/img/seta.png" alt="voltar">
+            <img src="./src/img/icons/seta.png" alt="voltar">
         </button>
 
         <ul class="lista-cavaleiros">
@@ -379,7 +392,7 @@
         </ul>
 
         <button class="btn-seta">
-            <img src="./src/img/seta.png" alt="avançar" id="btn-avancar">
+            <img src="./src/img/icons/seta.png" alt="avançar" id="btn-avancar">
         </button>
     </main>
 

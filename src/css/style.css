@@ -1,9 +1,34 @@
 body {
   font-family: "VT323", monospace;
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-site.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-site.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+}
+
+.som-position {
+  padding-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 20px 0;
+}
+
+.som-btn {
+  background-color: #333;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.som-btn:hover {
+  background-color: #fff;
 }
 
 .cabecalho {
@@ -13,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .cabecalho .helmet {
@@ -81,73 +106,88 @@ body {
 }
 
 .fundo-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-ikki.jpg) no-repeat;
- 
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-ikki.jpg) no-repeat;
 }
 
 .fundo-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-hyoga.jpg) no-repeat;
-
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-hyoga.jpg) no-repeat;
 }
 
 .fundo-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-shiryu.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-shiryu.jpg) no-repeat;
 }
 
 .fundo-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-shun.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-shun.jpg) no-repeat;
 }
 
 .fundo-5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-seya.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-seya.jpg) no-repeat;
 }
 
 .fundo-6 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-afrodite.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-afrodite.jpg) no-repeat bottom;
 }
 
 .fundo-7 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-aiolia.jpg) no-repeat top;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-aiolia.jpg) no-repeat top;
 }
 
 .fundo-8 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-aioros.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-aioros.jpg) no-repeat;
 }
 
 .fundo-9 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-aldebaran.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-aldebaran.jpg) no-repeat bottom;
 }
 
 .fundo-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-camus.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-camus.jpg) no-repeat bottom;
 }
 
 .fundo-11 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-dohko.jpg) no-repeat ;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-dohko.jpg) no-repeat;
 }
 
 .fundo-12 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) ,rgba(000, 0, 0, 0.5)), url(../img/backgrounds/fundo-mascara.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(000, 0, 0, 0.5)),
+    url(../img/backgrounds/fundo-mascara.jpg) no-repeat bottom;
 }
 
 .fundo-13 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-milo.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-milo.jpg) no-repeat bottom;
 }
 
 .fundo-14 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-mu.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-mu.jpg) no-repeat bottom;
 }
 
 .fundo-15 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-saga.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-saga.jpg) no-repeat bottom;
 }
 
 .fundo-16 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-shaka.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-shaka.jpg) no-repeat;
 }
 
 .fundo-17 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(000, 0, 0, 0.7)), url(../img/backgrounds/fundo-shura.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(000, 0, 0, 0.7)),
+    url(../img/backgrounds/fundo-shura.jpg) no-repeat bottom;
 }
 
 .cartao .informacoes {
