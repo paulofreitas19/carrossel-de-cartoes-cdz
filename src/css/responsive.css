@@ -15,9 +15,9 @@
     }
 
     .btn-seta{
-        width: 20px;
-        height: 20px;
-        padding: 20px;
+        width: 25px;
+        height: 25px;
+        padding: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,13 +27,20 @@
         max-height: 450px;
     }
 
+    .cabecalho .titulo {
+        min-width: 60%;
+        font-size: 11px;
+        margin-top: 28px;
+
+    }
+
     .cartao .imagem-cavaleiro{
         max-height: 200px;
     }
 
     .cartao .informacoes .nome{
         max-width: 70%;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .cartao .informacoes .vida{
@@ -41,4 +48,22 @@
     }
 
 
+}
+
+@media (min-width: 820px ){
+    .cabecalho .titulo {
+        min-width: 31%;
+        font-size: 11px;
+        margin-top: 28px;
+
+    }
+}
+
+@media (min-width: 970px ){
+    .cabecalho .titulo {
+        min-width: 10%;
+        font-size: 12px;
+        margin-top: 28px;
+
+    }
 }

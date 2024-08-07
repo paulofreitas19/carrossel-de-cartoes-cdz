@@ -13,13 +13,13 @@ body {
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 20px 0;
+  margin: 60px 0;
 }
 
 .som-btn {
   background-color: #333;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   border: 0;
   cursor: pointer;
@@ -41,13 +41,24 @@ body {
   padding-top: 30px;
 }
 
-.cabecalho .helmet {
-  width: 35px;
-  height: 50px;
+.cabecalho .logo {
+  width: 250px;
+  height: 118px;
 }
 
 .cabecalho .titulo {
+  font-family: monospace;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 50px;
+  width: 16%;
+  text-align: justify;
+}
+
+.cabecalho .titulo:hover {
   color: #fff;
+  transition: color 0.8s ease-in-out;
 }
 
 .carrossel-cdz {
@@ -96,8 +107,12 @@ body {
   position: absolute;
   padding: 18px;
   border-radius: 10px;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(38, 57, 77) 0px 7px 29px 0px;
   transition: opacity 0.3s ease-in-out;
+}
+
+.cartao:hover {
+  box-shadow: #ffef53 0px 7px 29px 0px;
 }
 
 .cartao.selecionado {
