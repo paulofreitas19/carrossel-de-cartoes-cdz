@@ -108,11 +108,12 @@ body {
   padding: 18px;
   border-radius: 10px;
   box-shadow: rgb(38, 57, 77) 0px 7px 29px 0px;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
 }
 
 .cartao:hover {
   box-shadow: #ffef53 0px 7px 29px 0px;
+  transition: box-shadow 0.8s ease-in-out;
 }
 
 .cartao.selecionado {
